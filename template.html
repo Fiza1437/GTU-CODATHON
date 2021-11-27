@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script type="text/javascript" src="/jquery/jquery-1.10.2.min.js">
+        $("p").text("Hello World");
+        $("p").each(function (index) {
+        $(this).text("Your ID is: " + this.id + " and index: " + index); });
+        $(function(){
+        $("p").each(function (index) {
+        $(this).text("Your ID is: " + this.id + " and index: " + index);
+         });
+        $(".highlighted").css("background", "yellow");
+        });
+        </script>
+    </head>
+    <body>
+        <h1>It works!</h1>
+        <p id="p1"></p>
+        <p id="p2" class="highlighted"></p>
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<body>
+    <!-- Body HTML here -->
+    <p>Some other content</p>
+    <div class="box">
+    <div>Company News</div>
+    <ul>
+        <li>Stock price has gone up</li>
+        <li>Tomorrow is a holiday</li>
+    </ul>
+    </div>
+    This is the box<br/>
+    <script>//jQuery code here
+    $(function(){
+    //jQuery code here
+    var box = $("div.box");
+    box.css("border-style", "solid");
+    box.css("border-width", "2px");
+    var title = $("div.box div:first-child");
+    title.css("background", "black");
+    title.css("color", "white");
+    });
+    $("div.box").css("border-style", "solid");
+    $("div.box").css("border-width", "2px");
+    $("div.box div:first-child").css("background", "black");
+    $("div.box div:first-child").css("color", "white");
+    </script>
+</body>
+</html>

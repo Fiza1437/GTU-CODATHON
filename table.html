@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script>
+           
+            $(function(){
+            //jQuery code here
+            var box = $("div.box");
+            box.css("border-style", "solid");
+            box.css("border-width", "2px");
+            var title = $("div.box div:first-child");
+            title.css("background", "black");
+            title.css("color", "white");
+            $("tr:even").css("background-color", "grey");
+            $("tr:odd").css("background-color", "yellow");
+            $("tbody tr:even").css("background-color", "grey");
+            $("tbody tr:odd").css("background-color", "yellow");
+            $("thead tr").css("background-color", "black");
+            $("thead tr").css("color", "white");
+            });
+        </script>
+    </head>
+</html>
